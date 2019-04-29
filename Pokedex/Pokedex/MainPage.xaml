@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:Pokedex"
              x:Class="Pokedex.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout VerticalOptions="Center">
+        <Image x:Name="logoPokemon"></Image>
+        <Entry Placeholder="Digite seu Pokemon" x:Name="txtPesquisaPokemon"></Entry>
+        <Button Text="Pesquisar" Clicked="PesquisarPokemon"></Button>
     </StackLayout>
 
 </ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pokedex.DescricaoPokemon">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                
+            </StackLayout>
+            <Image x:Name="imgPokemon" WidthRequest="300" HeightRequest="300" >
+                
+            </Image>
+            <Label x:Name="nomePokemon" HorizontalOptions="Center"></Label>
+            <Label x:Name="pesoPokemon" HorizontalOptions="Center"></Label>
+            <Label x:Name="sexoPokemon" HorizontalOptions="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
